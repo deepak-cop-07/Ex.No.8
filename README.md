@@ -9,69 +9,43 @@ To demonstrate the ability of text-to-image generation tools to reproduce an exi
 ## Procedure:
 Analyze the Given Image:
 
-Examine the provided composite image (image_0.png) carefully. It is a diptych (two-panel image).
+Objects/Subjects: A complex city composed of multiple towering, off-white, stalk-like structures. These are capped by distinct, large, reddish-orange conical roofs. A long, winding, paved path leads into the city through a grassy valley. Diverse, stylized figures (including one in a diving helmet and others with packs) are on the path. The city is flanked by massive, dark, vertical cliff faces. Distant trees (conifers) and structures are visible on the slopes.
 
-Panel 1 (Left):
+Colors: Dominant hues of warm off-white (towers), a distinct reddish-orange (mushroom caps), grassy greens and warm golds (valley), dark rock browns (cliffs), and a bright, clear blue sky with white clouds.
 
-Objects: A large, multi-towered medieval stone castle with battlements and turrets. It is situated on a steep, craggy hill or cliff.
+Textures: Weathered stone and plaster surfaces, organic grass and rock, heavy-grained vintage paper (classic print) and paint.
 
-Background: A vast valley filled with dense, low-lying fog. Rolling, distant mountains are visible. A small cluster of pine trees is at the base of the hill.
+Lighting: Bright, clear, golden natural light, as from a clear midday sun. Deep, cool shadows are cast by the cliffs.
 
-Colors/Lighting: Cinematic, dramatic lighting. A warm, golden sun (rising or setting) is hitting the castle and the top of the fog, while the valley below remains cool, foggy, and blue-gray. The sky is a gradient of golden-pink near the horizon.
+Background: Large vertical cliffs, a blue sky with white cumulus clouds, distant hills and trees.
 
-Textures: Rough stone, sharp rock, soft mist, rugged tree bark.
+Composition: A framed perspective, with cliffs on the far left and right. The winding path leads the eye diagonally from the bottom center into the complex city. Multiple mushroom-capped towers dominate the mid-ground.
 
-Composition: The castle is centrally located, dominant on the left half. A wide shot with a dramatic perspective looking across the valley.
-
-Style: Hyper-realistic, high-resolution photography.
-
-Panel 2 (Right):
-
-Objects: A solitary, sleek, bipedal humanoid robot, mostly chrome/silver, walking away from the camera down a busy street. It is carrying a small, square satchel/briefcase. Crowds of diverse people in casual and hooded clothing surround it.
-
-Background: A futuristic, multi-story cyberpunk city street. Buildings are covered in glowing holographic and neon advertisements in various languages (English, Japanese). Flying vehicles are in the upper sky.
-
-Colors/Lighting: Dominated by glowing neon lights: vivid purple, electric blue, cyan, orange, and green. Cinematic lighting is high-contrast, with dark shadows and bright, saturated colors. Rain streaks are visible, creating reflections.
-
-Textures: Wet asphalt, metallic robot surfaces, glass, glowing plastic, fabric of clothing.
-
-Composition: A low-angle, cinematic medium shot. The robot is centered in the path, leading the eye into the depth of the city. The overall frame is split vertically with the other scene.
-
-Style: Stylized cinematic photograph, concept art quality.
-
-Overall Image: A combined image, with a clear vertical split down the middle.
+Style: A classical, fantastical sci-fi illustration. Visually detailed, with a palpable paper texture, like a vintage children's book or an old print.
 
 Create the Basic Prompt:
 
-Initial description: A medieval castle on a hill next to a futuristic robot walking in a cyberpunk city.
+Prompt 1 (Basic): A fantasy city with mushroom-shaped towers in a valley between cliffs.
 
 Refine the Prompt with More Detail:
 
-Added details: A cinematic photograph of a medieval stone castle on a steep hill surrounded by low fog, illuminated by golden hour light, on the left side of the frame. On the right side of the frame, a futuristic robot walks down a rainy cyberpunk city street at night, illuminated by glowing purple and blue neon signs.
+Prompt 2 (Detailed): A complex fantasy city composed of multiple multi-story towers made of weathered off-white stone. Each tower is capped by a distinct, large, reddish-orange conical roof. A stone-paved pathway leads through a grassy valley toward the city.
 
 Identify Style and Artistic Influences:
 
-Added style: A cinematic, hyper-realistic 8k resolution image with a vertical split down the middle. On the left: a photorealistic view of a medieval stone castle on a hilltop surrounded by a massive, dramatic valley of low-lying fog at sunrise/sunset, with a warm golden light hitting the castle and mountains, and pine trees at the base. On the right: a realistic cyberpunk street scene at night, filled with rain and glowing neon lights in purple and blue, a crowd of diverse people, and a solitary, sleek metallic humanoid robot carrying a satchel, walking away from the camera, with reflections on the wet pavement.
+Prompt 3 (Style): A complex fantasy city composed of multiple multi-story towers made of weathered off-white stone, each capped by a large, reddish-orange conical roof. A stone-paved pathway leads through a grassy valley. Style of a vintage fantastical sci-fi illustration with palpable paper texture and detailed line work, like a classic print.
 
 Adjust and Fine-tune:
 
-Added composition and lighting details: A high-resolution, photorealistic diptych with a clean vertical split. The left panel shows a massive medieval castle on a sharp, rocky hill, shrouded in dense valley fog, lit by dramatic, low-angle golden-hour sunlight from the right, with pine forests below and a gradient warm-cool sky. The right panel is a detailed, dark, and rainy cyberpunk city street at night, illuminated by a chaotic mix of glowing neon signs (purple, blue, orange), rain streaks, and reflections on the wet asphalt. A single chrome bipedal robot with a blue sensor walks away from the camera, carrying a small black satchel, surrounded by a crowd of people in hooded clothing. The lighting is cinematic, high-contrast, and moody, with a shallow depth of field. 8k, photorealistic, high-detail texture.
+Prompt 4 (Final Fine-Tuned): A fantastical vintage sci-fi illustration of a complex, multi-towered mushroom city perched on massive, weathered cliffs. The central collection of off-white towers, all capped with distinct, large, reddish-orange conical mushroom roofs, dominates the mid-ground, with catwalks connecting the lower levels. The composition is framed by large rock faces on the left and right. On the grassy, golden-green valley slope below, a winding stone-paved pathway leads a procession of small, diverse figures, including one in an old-fashioned diving helmet and others with packs, towards the city entrance. The scene is lit by clear golden natural light under a bright blue sky with scattered clouds. The image has a palpable, heavy-grained vintage paper texture and a classic book-print style.
 
 Generate the Image:
 
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/c1733f7e-6e65-45bd-997a-98171563cefe" />
-
+Use the final refined prompt to generate the image using the selected text-to-image model.
 
 Compare the Generated Image with the Original:
 
-Assess the results. The generated image should capture the dual-panel composition, the specific subject matter for each, and the disparate lighting/style (warm nature vs. dark sci-fi).
-## Tools/LLMs for Image Generation:
-●	DALL·E (by OpenAI): A text-to-image generation tool capable of creating detailed images from textual prompts.
-○	Website: DALL·E
-●	Stable Diffusion: An open-source model for generating images from text prompts, known for its flexibility and customizable outputs.
-○	Website: Stable Diffusion
-●	MidJourney: A popular AI tool for generating visually striking and creative images based on text descriptions.
-○	Website: MidJourney
+Assess the likeness and note differences for documentation.
 ## Instructions:
 1.	Examine the Given Image: Study the image to understand its key features—objects, colors, lighting, composition, and any stylistic choices.
 2.	Write the Basic Prompt: Start with a simple description of the primary elements in the image (e.g., "A sunset over a mountain range").
@@ -82,21 +56,26 @@ Assess the results. The generated image should capture the dual-panel compositio
 ## Deliverables:
 1. The Original Image:
 
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/2c6e6796-dfda-43a5-bc01-1be338e86c91" />
+
+<img width="1020" height="1024" alt="image" src="https://github.com/user-attachments/assets/a2eb5b15-644a-47c3-abf1-d27c6fdd4abf" />
+<img width="1024" height="1020" alt="image" src="https://github.com/user-attachments/assets/156f5b79-9b19-46c1-b4a5-a8d4cc76b5dc" />
 
 
 2. The Final Generated Image:
 
-<img width="1024" height="572" alt="image" src="https://github.com/user-attachments/assets/f5ead422-c338-47b6-88ac-4fba14e637d4" />
+<img width="1020" height="1024" alt="image" src="https://github.com/user-attachments/assets/56a7e7ca-736a-4658-9626-49d1f7f864a4" />
+
+<img width="1024" height="1020" alt="image" src="https://github.com/user-attachments/assets/3b5545eb-187b-4c2f-b0aa-ef67ecf9a0b0" />
 
 
 3. Prompts Used:
 
-Prompt 1 (Basic): A medieval castle on a hill next to a futuristic robot walking in a cyberpunk city.
+PBasic Prompt: A fantasy city with mushroom-shaped towers in a valley between cliffs.
 
-Prompt 2 (Refined): A cinematic photograph of a medieval stone castle on a steep hill surrounded by low fog, illuminated by golden hour light, on the left side of the frame. On the right side of the frame, a futuristic robot walks down a rainy cyberpunk city street at night, illuminated by glowing purple and blue neon signs.
+Final Prompt: A fantastical vintage sci-fi illustration of a complex, multi-towered mushroom city perched on massive, weathered cliffs. The central collection of off-white towers, all capped with distinct, large, reddish-orange conical mushroom roofs, dominates the mid-ground, with catwalks connecting the lower levels. The composition is framed by large rock faces on the left and right. On the grassy, golden-green valley slope below, a winding stone-paved pathway leads a procession of small, diverse figures, including one in an old-fashioned diving helmet and others with packs, towards the city entrance. The scene is lit by clear golden natural light under a bright blue sky with scattered clouds. The image has a palpable, heavy-grained vintage paper texture and a classic book-print style.
 
-Prompt 3 (Final Fine-Tuned): A high-resolution, photorealistic diptych with a clean vertical split. The left panel shows a massive medieval castle on a sharp, rocky hill, shrouded in dense valley fog, lit by dramatic, low-angle golden-hour sunlight from the right, with pine forests below and a gradient warm-cool sky. The right panel is a detailed, dark, and rainy cyberpunk city street at night, illuminated by a chaotic mix of glowing neon signs (purple, blue, orange), rain streaks, and reflections on the wet asphalt. A single chrome bipedal robot with a blue sensor walks away from the camera, carrying a small black satchel, surrounded by a crowd of people in hooded clothing. The lighting is cinematic, high-contrast, and moody, with a shallow depth of field. 8k, photorealistic, high-detail texture.
+
+
 
 ## Conclusion:
 By using detailed and well-crafted prompts, text-to-image generation models can be effective in reproducing an image closely. The quality of the generated image depends on how accurately the prompt describes the image's key elements. The experiment demonstrates the importance of prompt refinement and iteration when working with AI tools to achieve desired outcomes. With practice, the model can generate images that closely match real-world visuals, which is useful for creative and practical applications.
